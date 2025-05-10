@@ -11,7 +11,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/` if it doesn't open automatically.
 
-This application requires a BackEnd application as well. Kindly download and run that as well to run to use all features of the applicable.
+This application requires a BackEnd application as well. Kindly download and run that as well to use all features of the applicable. Download from `https://github.com/NikunjVats/NewsFeedServer`.
 
 IMPORTANT!! Please Click on button Login First to Authenticate yourself for the BackEnd application
 
