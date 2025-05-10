@@ -1,0 +1,14 @@
+<header>
+    <h1>Global News Feed</h1>
+    <div class="search-bar">
+        <input [(ngModel)]="searchQuery" (keyup.enter)="onSearch()" placeholder="Search news..." />
+        <button (click)="onSearch()">Search</button>
+      </div>
+    <div class="header-right">
+        @if(isLoggedIn()){
+            <button (click)="onLogout()" class="login-btn">Logout</button>
+        } @else {
+            <button (click)="onLogin()" class="login-btn">Login</button>
+        }
+    </div>
+</header>
